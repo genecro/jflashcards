@@ -34,7 +34,7 @@ Run `python autoparse.py`
 
 You will be asked to enter the path to the kanji spreadsheet and then the path to the vocabulary spreadsheet. Just type or paste them normally without quotes or anything. Next you will be asked to type the path to the output file or "create" to make a new one based on the kanji in the kanji spreadsheet.
 
-After these steps the GUI will appear. Here is a sample screen:
+After these steps the tool will find the first empty entry in the output file and display a window for the corresponding kanji. It searches the vocabulary list for any entries containing the kanji, and then replaces the instance of the kanji in the word with its reading surrounded by square brackets. Here is a sample screen:
 
 ![Sample Screen](/img/sample1.png?raw=true "Sample Screen")
 
