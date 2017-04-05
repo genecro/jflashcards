@@ -16,7 +16,7 @@ I found two spreadsheets: one containing all <a href=http://www.tanos.co.uk/jlpt
 
 This would have taken quite a long time so I decided to write a tool to automate the process.
 
-##Input Requirements and dependencies:
+## Input Requirements and dependencies:
 
 This tool uses <a href=https://wiki.python.org/moin/TkInter>Tkinter</a>, <a href=https://github.com/pyexcel/pyexcel>pyexcel</a>, and <a href=https://github.com/genecro/kana_conversion>kana_conversion</a>.
 
@@ -28,21 +28,21 @@ Word (kanji) | Reading (hiragana) | Translation
 
 These spreadsheets should be xls files.
 
-##How to use this tool:
+## How to use this tool:
 
-Run `python auto_parse.py`
+Run `python autoparse.py`
 
 You will be asked to enter the path to the kanji spreadsheet and then the path to the vocabulary spreadsheet. Just type or paste them normally without quotes or anything. Next you will be asked to type the path to the output file or "create" to make a new one based on the kanji in the kanji spreadsheet.
 
 After these steps the GUI will appear. Here is a sample screen:
 
-![Sample Screen](/img/sample1.jpg?raw=true "Sample Screen")
+![Sample Screen](/img/sample1.png?raw=true "Sample Screen")
 
 Use the checkbuttons on the left to select the words you want to add to your flashcard for the current kanji. If the automated process of constructing the word with the kanji replaced by its reading in square brackets was done incorrectly, the textbox is editable so you may manually adjust it if necessary.
 
 If you want to add a word that wasn't contained in the vocabulary list, click the "Add blank line" button:
 
-![New Line Added](/img/sample2.jpg?raw=true "New Line Added")
+![New Line Added](/img/sample2.png?raw=true "New Line Added")
 
 Choose the words you want to insert and then click "Add to sheet" to save the selected words to the current row in the output file. The screen for the next kanji will automatically open.
 
@@ -51,7 +51,7 @@ If you don't finish going through all kanji in one sitting, the tool will resume
 The output file contains the following columns:
 Kanji (back) | Word list (front)
 
-##Future Improvements
+## Future Improvements
 
 Since this was a personal tool that I only needed to use once I am unlikely to invest much more time into it. However, here are some improvements I can think of:
 
