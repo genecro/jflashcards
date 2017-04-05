@@ -4,16 +4,12 @@
 
 I wanted to create a deck of flash cards, one for each kanji that may appear on the JLPT N1. The back (answer side) would just contain the kanji. The front would have a few words that each contain the kanji of the current card. I wanted the current kanji to be replaced by hiragana in square brackets showing its reading. Example:
 
-Front:
-
-定[しょく]
-
-[た]べる
-
+Front: <br />
+定[しょく]<br />
+[た]べる<br />
 [く]う
 
-Back:
-
+Back:<br />
 食
 
 I found two spreadsheets: one containing all <a href=http://www.tanos.co.uk/jlpt/jlpt1/kanji/combined/>kanji</a> that could appear on JLPT N1 along with their readings and another containing all the <a href=www.tanos.co.uk/jlpt/jlpt1/vocab/combined/>vocabulary</a> words that could appear on the JLPT N1. For each kanji in the kanji sheet I would search the words in the vocab sheet to find ones containing that kanji, then decide which ones I wanted to put on the card, typing each line and doing the kanji replacement manually.
