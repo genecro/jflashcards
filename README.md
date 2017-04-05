@@ -1,6 +1,6 @@
 # Automated Japanese flashcard creation tool
 
-(Disclaimer: My goal with this tool was to write it as quickly as possible to help save time making flashcards to study kanji. For now it is quite messy and requires a very strict format for the input files. In the future I may clean it up and make it more generalized, but for now it is presented as is.)
+(Disclaimer: My goal with this tool was to write it as quickly as possible to help save time making flashcards to study kanji. For now it is messy and requires the input files to be formatted a specific way. In the future I may clean it up and make it more generalized, but for now it is presented as is.)
 
 I wanted to create a deck of flash cards, one for each kanji that may appear on the JLPT N1. The back (answer side) would just contain the kanji. The front would have a few words that each contain the kanji of the current card. I wanted the current kanji to be replaced by hiragana in square brackets showing its reading. Example:
 
