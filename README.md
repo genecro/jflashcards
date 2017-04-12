@@ -14,7 +14,7 @@ I found two spreadsheets: one containing all <a href=http://www.tanos.co.uk/jlpt
 
 This would have taken quite a long time so I decided to write a tool to automate the process.
 
-## Input Requirements and dependencies:
+## Input requirements and dependencies:
 
 This tool uses <a href=https://wiki.python.org/moin/TkInter>Tkinter</a>, <a href=https://github.com/pyexcel/pyexcel>pyexcel</a>, and <a href=https://github.com/genecro/kana_conversion>kana_conversion</a>.
 
@@ -49,7 +49,7 @@ If you don't finish going through all kanji in one sitting, the tool will resume
 The output file contains the following columns:
 Kanji (back) | Word list (front)
 
-## Future Improvements
+## Future improvements
 
 -Sometimes a kanji will have two readings, one of which is a substring of the other. If the shorter one appears on the list of readings first, it will get inserted into the brackets even if the longer version is present (e.g., the kanji has し and　しゃ in its list of readings, the word contains しゃ, but し gets inserted into the brackets). A potential solution would be to sort the readings from longest to shortest when performing the check.
 
