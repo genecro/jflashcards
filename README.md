@@ -1,5 +1,7 @@
 # Automated Japanese flashcard creation tool
 
+## Background
+
 I wanted to create a deck of flash cards, one for each kanji that may appear on the JLPT N1. The back (answer side) would just contain the kanji. The front would have a few words that each contain the kanji of the current card. I wanted the current kanji to be replaced by hiragana in square brackets showing its reading. Example:
 
 Front: <br />
