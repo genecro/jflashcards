@@ -1,7 +1,5 @@
 # Automated Japanese flashcard creation tool
 
-(Disclaimer: My goal with this tool was to write it as quickly as possible to help save time making flashcards to study kanji. For now it is messy and requires the input files to be formatted a specific way. In the future I may clean it up and make it more generalized, but for now it is presented as is.)
-
 I wanted to create a deck of flash cards, one for each kanji that may appear on the JLPT N1. The back (answer side) would just contain the kanji. The front would have a few words that each contain the kanji of the current card. I wanted the current kanji to be replaced by hiragana in square brackets showing its reading. Example:
 
 Front: <br />
@@ -53,11 +51,7 @@ Kanji (back) | Word list (front)
 
 ## Future Improvements
 
-Since this was a personal tool that I only needed to use once I am unlikely to invest much more time into it. However, here are some improvements I can think of:
-
 -Sometimes a kanji will have two readings, one of which is a substring of the other. If the shorter one appears on the list of readings first, it will get inserted into the brackets even if the longer version is present (e.g., the kanji has し and　しゃ in its list of readings, the word contains しゃ, but し gets inserted into the brackets). A potential solution would be to sort the readings from longest to shortest when performing the check.
-
--This tool would be better structured as a class to eliminate the use of global objects.
 
 -Implement the ability to rearrage the position of each line to control the order the words appear in on the flashcard.
 
